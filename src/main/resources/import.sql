@@ -1,6 +1,6 @@
 
-INSERT INTO tb_user (email, password) VALUES ('ana@gmail.com','123456');
-INSERT INTO tb_user (email, password) VALUES ('bob@gmail.com','123456');
+INSERT INTO tb_user (email, password) VALUES ('ana@gmail.com','$2a$10$07iotGxQTc9r5KrLcsCQ1OHEz.LBAi59oOQVrz85MZ91LdpUctq4S');
+INSERT INTO tb_user (email, password) VALUES ('bob@gmail.com','$2a$10$07iotGxQTc9r5KrLcsCQ1OHEz.LBAi59oOQVrz85MZ91LdpUctq4S');
 
 INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
