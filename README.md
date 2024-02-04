@@ -1,4 +1,12 @@
 # Event and city validation and security project
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/luquinhas29/validacao_e_seguranca/edit/main/LICENSE)
+
+## Sobre o projeto
+```
+Projeto de evento e cidade, relacionado a validação e segurança usando Bean Validation,
+Spring Security, Oauth 2, autorização de rotas e perfis,
+login e controle de acesso ao banco de dados, validação de testes
+```
 
 ## Competências
 ## Modelo de dados de usuários e perfis
