@@ -22,4 +22,3 @@ public class CustomUserAuthorities {
 		return authorities;
 	}
 }
-

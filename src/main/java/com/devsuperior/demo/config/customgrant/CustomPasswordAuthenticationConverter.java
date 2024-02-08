@@ -86,4 +86,3 @@ public class CustomPasswordAuthenticationConverter implements AuthenticationConv
 		return parameters;
 	}
 }
-

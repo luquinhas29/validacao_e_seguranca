@@ -1,6 +1,5 @@
 package com.devsuperior.demo.config.customgrant;
 
-
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Map;
@@ -42,4 +41,3 @@ public class CustomPasswordAuthenticationToken extends OAuth2AuthorizationGrantA
 		return this.scopes;
 	}
 }
-

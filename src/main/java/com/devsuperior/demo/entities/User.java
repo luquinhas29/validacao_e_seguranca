@@ -36,15 +36,6 @@ public class User implements UserDetails{
 	inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<Role> roles = new HashSet<>();
 	
-	public User() {
-	}
-
-	public User(Long id, String email, String password) {
-		super();
-		this.id = id;
-		this.email = email;
-		this.password = password;
-	}
 
 	public Long getId() {
 		return id;
@@ -68,6 +59,10 @@ public class User implements UserDetails{
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public Set<Role> getRoles() {
+		return roles;
 	}
 
 	public void addRole(Role role) {

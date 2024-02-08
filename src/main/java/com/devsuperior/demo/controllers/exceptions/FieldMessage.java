@@ -2,19 +2,19 @@ package com.devsuperior.demo.controllers.exceptions;
 
 import java.io.Serializable;
 
-public class FieldMessage implements Serializable{
-
+public class FieldMessage implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private String fieldName;
-	private String fieldMessage;
+	private String message;
 	
 	public FieldMessage() {
 	}
 
-	public FieldMessage(String fieldName, String fieldMessage) {
+	public FieldMessage(String fieldName, String message) {
+		super();
 		this.fieldName = fieldName;
-		this.fieldMessage = fieldMessage;
+		this.message = message;
 	}
 
 	public String getFieldName() {
@@ -25,12 +25,11 @@ public class FieldMessage implements Serializable{
 		this.fieldName = fieldName;
 	}
 
-	public String getFieldMessage() {
-		return fieldMessage;
+	public String getMessage() {
+		return message;
 	}
 
-	public void setFieldMessage(String fieldMessage) {
-		this.fieldMessage = fieldMessage;
+	public void setMessage(String message) {
+		this.message = message;
 	}
-
 }

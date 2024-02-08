@@ -148,4 +148,3 @@ public class CustomPasswordAuthenticationProvider implements AuthenticationProvi
 		throw new OAuth2AuthenticationException(OAuth2ErrorCodes.INVALID_CLIENT);
 	}	
 }
-
